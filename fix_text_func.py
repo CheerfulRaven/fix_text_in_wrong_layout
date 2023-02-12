@@ -1,3 +1,8 @@
+"""Функции преобразуют ошибочно набранный текст:
+english_to_russia - из английской раскладки в русскую
+russian_to_english - из русской раскладки в английскую"""
+
+
 def english_to_russia(text):
     new_text = []
     dict_english_to_russia = {'q': 'й', 'w': 'ц', 'e': 'у', 'r': 'к', 't': 'е', 'y': 'н', 'u': 'г', 'i': 'ш',
@@ -16,7 +21,7 @@ def english_to_russia(text):
             new_text.append(dict_english_to_russia[element])
         else:
             new_text.append(element)
-    print(''.join(new_text))
+    return ''.join(new_text)
 
 
 def russian_to_english(text):
@@ -37,4 +42,4 @@ def russian_to_english(text):
             new_text.append(dict_russian_to_english[element])
         else:
             new_text.append(element)
-    print(''.join(new_text))
+    return ''.join(new_text)
