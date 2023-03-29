@@ -1,5 +1,4 @@
 # fix_text_in_wrong_layout
-![Raven corrector]([https://disk.yandex.ru/i/OhuReiaMDaAvWg](https://i.ibb.co/NtyfSLv/Silver-Crow-Crow-humanoid-in-Victorian-style-write-a-book-057c9d06-75db-4a85-b3a2-72bfbb632eb1.png))
 
 Цель проекта - исправление текста, набранного в неправильной раскладке.
 Проект состоит из следующих файлов:
