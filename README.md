@@ -1,4 +1,5 @@
 # fix_text_in_wrong_layout
+![My Remote Image](https://disk.yandex.ru/i/OhuReiaMDaAvWg)
 
 Цель проекта - исправление текста, набранного в неправильной раскладке.
 Проект состоит из следующих файлов:
